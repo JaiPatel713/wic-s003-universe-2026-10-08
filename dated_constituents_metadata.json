@@ -1,21 +1,16 @@
 {
     "index_id":  "SP500",
-    "provider":  "Team-approved reconciled SP500 snapshot",
+    "provider":  "Team-frozen SP500 snapshot validated against State Street SPY holdings",
     "provider_approved":  true,
     "provisional":  false,
     "as_of_date":  "2026-10-08",
     "source_url":  "https://raw.githubusercontent.com/JaiPatel713/wic-s003-universe-2026-10-08/51f578c3731e9ac52727659b389c68be31a86e0b/dated_constituents.csv",
     "sha256":  "a8045f043ea7e68d4254a07470a5e95ca5759ded4656657eac514162e6e82e06",
-    "constituent_count":  503,
     "sector_classification_provider":  "datasets/s-and-p-500-companies",
     "sector_classification_version":  "Git blob 728fd5f099dcd362e0f381ccf4806cd0603ff854",
     "membership_validation_provider":  "State Street SPDR S\u0026P 500 ETF Trust (SPY)",
     "membership_validation_as_of_date":  "2026-10-08",
     "membership_validation_equity_count":  503,
     "membership_validation_result":  "503 of 503 equity tickers matched frozen constituent table",
-    "membership_validation_file_sha256":  "22a3b3b75ac4392435301dd5ef6147ad2c2efac0ccc85c80e86ac9e9a8bf64c6",
-    "enrichment_source":  "datasets/s-and-p-500-companies",
-    "enrichment_source_url":  "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
-    "enrichment_git_blob_sha":  "728fd5f099dcd362e0f381ccf4806cd0603ff854",
-    "notes":  "Membership validated against State Street SPY daily holdings dated 2026-10-08. Sector, company name, sub-industry and CIK fields supplied by the matching datasets/s-and-p-500-companies constituent table and frozen at the immutable source URL above."
+    "membership_validation_file_sha256":  "22a3b3b75ac4392435301dd5ef6147ad2c2efac0ccc85c80e86ac9e9a8bf64c6"
 }
